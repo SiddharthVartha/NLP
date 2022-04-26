@@ -1,0 +1,11 @@
+Literature Review on Language Identification
+
+Title:- Language Identification for Multilingual Machine Translation.
+Auther:- Arun Babhulgaonkar and Shefali Sonavane.
+Index Terms:-Language Identification (LI), Language Modeling (LM), Machine Learning, Machine Translation (MT).
+Summary:- Language identification is the fundamental and crucial step in many NLP applications. 
+	       In this paper, n-gram based and machine learning based language identifiers are trained and used to identify three Indian languages such as Hindi, Marathi and Sanskrit present in a document given for machine translation. 
+	       Here n-gram modelling finds probability of subset of n character or words sequence in a long sentence in the text. 
+	       For language identification purpose, sequences of characters or words in the sentence of all languages are modelled separately using n-grams. 
+	       The distance between the profile of test document language and profiles of languages in training documents is measured using similarity metric and finally the language in training dataset whose profile is having minimum distance is selected as the language of the test document.
+	       By using n-gram technique they get 75.71% accuracy but using SVM accuracy achieved is 89.07%.
